@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BanglaMed Full</title>
+  <style>
+    body { font-family: Arial; padding: 1rem; background: #f4faff; }
+    input { width: 100%; padding: 10px; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #ccc; }
+    .medicine-card { background: #fff; margin-bottom: 1rem; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .pagination { text-align: center; margin-top: 1rem; }
+    .pagination button { margin: 0 5px; padding: 8px 12px; border: none; background: #2c6fbb; color: #fff; border-radius: 5px; cursor: pointer; }
+    .pagination button.active { background: #1a4d8c; }
+  </style>
+</head>
+<body>
+  <h1>BanglaMed Full</h1>
+  <input type="text" id="search-input" placeholder="Search medicines...">
+  <div id="medicines-container"></div>
+  <div class="pagination" id="pagination"></div>
+  <script src="script.js"></script>
+</body>
+</html>
